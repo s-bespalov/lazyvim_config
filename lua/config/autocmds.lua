@@ -12,3 +12,11 @@ vim.api.nvim_create_autocmd("VimEnter", {
     require("snacks").dim.enable()
   end,
 })
+
+vim.api.nvim_create_autocmd("LspAttach", {
+  callback = function()
+    vim.defer_fn(function()
+      vim.lsp.inlay_hint.enable(false)
+    end, 100)
+  end,
+})
