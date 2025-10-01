@@ -8,9 +8,13 @@ return {
   },
 
   {
+    "catppuccin/nvim"
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-wave",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
