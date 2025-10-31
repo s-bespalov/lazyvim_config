@@ -26,4 +26,16 @@ return {
   --     ft = { "go", "gomod" },
   --     build = ':lua require("go.install").update_all_sync()', -- if you need to install/update all binaries
   --   },
+  -- {
+  --   "fatih/vim-go",
+  --   ft = { "go" },
+  --   config = function()
+  --     vim.g.go_fmt_autosave = 0
+  --     vim.g.go_fmt_command = ""
+  --     vim.g.go_imports_autosave = 0
+  --     vim.g.go_code_completion_enabled = 0
+  --     vim.g.go_def_mapping_enabled = 0
+  --     vim.g.go_doc_popup_window = 0
+  --   end,
+  -- },
 }
