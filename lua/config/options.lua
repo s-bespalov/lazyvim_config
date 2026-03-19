@@ -2,7 +2,7 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 if vim.g.neovide then
-  vim.o.guifont = "Iosevka Nerd Font Mono:h12"
+  vim.o.guifont = "CaskaydiaCove Nerd Font Mono:h12"
   vim.g.neovide_normal_opacity = 0.9
   vim.g.neovide_hide_mouse_when_typing = true
   vim.g.neovide_fullscreen = true
