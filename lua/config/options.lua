@@ -6,6 +6,7 @@ if vim.g.neovide then
   vim.g.neovide_normal_opacity = 0.9
   vim.g.neovide_hide_mouse_when_typing = true
   vim.g.neovide_fullscreen = true
+  vim.opt.linespace = 15
   -- TODO переделать под LazyVim
   --vim.keymap.set("n", "<D-s>", ":w<CR>") -- Save
   --vim.keymap.set("v", "<D-c>", '"+y') -- Copy
